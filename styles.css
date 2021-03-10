@@ -125,13 +125,14 @@ color: var(--primary-text-color);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
+color: var(--title-text-color);
 }
 
-.email .telephone-number {
+.footer-contacts {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-color: rgba(255, 255, 255, 0.6);
+color: var(--primary-text-color);
 }
 
 
