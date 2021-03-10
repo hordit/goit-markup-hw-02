@@ -1,22 +1,31 @@
+/* Root */
+
 :root {
 --primary-text-color: #757575;
 --title-text-color: #212121;
 --accent-color: #2196F3;
---primary-white-color: #ffffff;
+--primary-white-color: #ffffff; 
 }
+
+/* Body */
+
 body {
 background-color: var(--primary-white-color);
 color: var(--primary-text-color);
-
 font-family: Roboto; sans-serif;
 letter-spacing: 0.03em;
 }
 
+.list {
+    list-style: none;
+}
+
 /* Logo */
 
-.accentrword {
+.accent-word {
     color: var(--accent-color);
 }
+
 .logo {
  color: var(--title-text-color);
  font-family: Raleway; sans-serif;
@@ -28,18 +37,94 @@ letter-spacing: 0.03em;
 
 /* Header */
 
-.header-nav a {
+.site-nav a {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-text-decoration: none;
+color:var(--title-text-color)
+}
+
+.contact-nav a {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--primary-text-color)
 }
 
 .link {
-color: var(--accent-color)
+text-decoration: none;
 }
-.email {
-    color: var(--accent-color) 
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:var(--accent-color)
+} 
+
+.contact-nav .link:hover,
+.contact-nav .link:focus  {
+color:var(--accent-color)
 }
+
+/* Hero */
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+/* Skills */
+
+.skills-list .title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+
+.skills-list .text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: var(--primary-text-color);   
+}
+
+/* Section */
+
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color: var(--title-text-color);
+}
+
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+color: var(--title-text-color)
+}
+
+.team-profession {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+color: var(--primary-text-color);
+}
+
+/* Contact */
+
+.address {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+
 
