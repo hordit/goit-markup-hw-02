@@ -78,6 +78,10 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 
+h1 span{
+display: block;}
+
+
 /* Skills */
 
 .skills-list .title {
