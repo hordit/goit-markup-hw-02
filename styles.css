@@ -7,26 +7,39 @@
 body {
 background-color: var(--primary-white-color);
 color: var(--primary-text-color);
+
+font-family: Roboto; sans-serif;
+letter-spacing: 0.03em;
 }
+
+/* Logo */
+
 .accentrword {
     color: var(--accent-color);
 }
 .logo {
  color: var(--title-text-color);
- font-family: Raleway;
- font-style: 400;
+ font-family: Raleway; sans-serif;
  font-weight: 700;
  font-size: 26px;
  line-height: 1.2;
- letter-spacing: 0.03em;
  text-decoration: none;
 }
-.site-nav {
-font-family: Roboto;
-font-style: 400;
+
+/* Header */
+
+.header-nav a {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
+
+.link {
+color: var(--accent-color)
+}
+.email {
+    color: var(--accent-color) 
+}
+
