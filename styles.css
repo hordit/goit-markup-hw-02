@@ -69,6 +69,10 @@ color:var(--accent-color)
 
 /* Hero */
 
+.hero {
+background-color: #2F303A;
+}
+
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -76,11 +80,8 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+color: #FFFFFF
 }
-
-h1 span{
-display: block;}
-
 
 /* Skills */
 
@@ -125,18 +126,76 @@ color: var(--primary-text-color);
 
 /* Contact */
 
+.accent-word {
+    color: var(--accent-color);
+}
+
+.footer-logo {
+ color: var(--primary-white-color);
+ font-family: Raleway; sans-serif;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.2;
+ text-decoration: none;
+}
+
+.footer {
+background-color: #2F303A;
+}
+
 .address {
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-color: var(--title-text-color);
+color: var(--primary-white-color);
 }
 
 .footer-contacts {
+font-style: normal;    
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-color: var(--primary-text-color);
+color: rgba(255, 255, 255, 0.6);
 }
+
+
+/* Portfolio */
+
+.choice {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+color: var(--title-text-color);
+}
+
+.choice .button {
+background-color: #F5F4FA;
+}
+
+.choice-project .button:hover,
+.choice-project .button:focus {
+background-color: var(--accent-color);
+}
+
+/* List-portfolio */
+
+.name-project {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+.description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+}
+
+
+
 
 
