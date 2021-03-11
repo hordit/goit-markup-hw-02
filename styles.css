@@ -162,7 +162,7 @@ color: rgba(255, 255, 255, 0.6);
 
 /* Portfolio */
 
-.choice {
+.choice-project {
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -171,7 +171,7 @@ text-align: center;
 color: var(--title-text-color);
 }
 
-.choice .button {
+.choice-project .button {
 background-color: #F5F4FA;
 }
 
