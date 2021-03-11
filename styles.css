@@ -50,7 +50,6 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color:var(--primary-text-color)
 }
 
 .link {
@@ -96,8 +95,7 @@ color: var(--title-text-color);
 .skills-list .text {
 font-weight: 400;
 font-size: 14px;
-line-height: 1.71;
-color: var(--primary-text-color);   
+line-height: 1.71;   
 }
 
 /* Section */
@@ -121,7 +119,6 @@ color: var(--title-text-color)
 font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
-color: var(--primary-text-color);
 }
 
 /* Contact */
